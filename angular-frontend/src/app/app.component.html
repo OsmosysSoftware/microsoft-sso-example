@@ -1,0 +1,7 @@
+<router-outlet />
+<div>
+  <button (click)="login()">Login with Microsoft</button>
+</div>
+<div *ngIf="loginResponse">
+{{ loginResponse | json }}
+</div>
