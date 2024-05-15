@@ -62,6 +62,8 @@ This project demonstrates the integration of Microsoft login and normal login fl
 
 Navigate to the API directory and start the .NET backend:
 
+1. Update `client values` in `api/appsettings.json`.
+
 ```bash
 cd api
 dotnet watch run
