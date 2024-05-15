@@ -32,9 +32,9 @@ const isIE =
     MsalModule.forRoot(
       new PublicClientApplication({
         auth: {
-          clientId: "3cbc0352-015d-4af0-a774-0fe24ef29767",
+          clientId: "your client id",
           authority:
-            "https://login.microsoftonline.com/common",
+            "https://login.microsoftonline.com/common", // try "https://login.microsoftonline.com/{your tenant id}" first
           redirectUri: "http://localhost:4200",
         },
         cache: {
